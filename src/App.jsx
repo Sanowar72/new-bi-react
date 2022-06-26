@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
+import HomePage from './BMICalculator/HomePage'
 
 function App() {
-  const handleClick = () =>{
+  const handleClick = () => {
     console.log('hello')
   }
   return (
     <main>
-      React⚛️ + Vite⚡ + Replit🌀
-      <button onClick={handleClick}>click me</button>
+       <HomePage /> 
     </main>
   );
 }
