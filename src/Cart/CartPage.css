@@ -1,0 +1,25 @@
+.cart-container{
+  display:flex;
+  flex-direction:row;
+  height:40vh;
+  width:90vw;
+  text-align:center;
+  justify-content:space-between;
+  border:1px solid black;
+  margin:auto;
+  
+  margin-top: 8px;
+}
+
+.cart-body{
+  line-height:5vh;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  text-align:center;
+  align-items:center;
+}
+
+.cart-body> h5, p, h5, button{
+  margin:4px;
+}
